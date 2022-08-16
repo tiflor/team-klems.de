@@ -1,4 +1,4 @@
-baseURL: "http://team-klems.de/"
+baseURL: "https://team-klems.de/"
 title: "Team-Klems"
 paginate: 5
 theme: PaperMod
@@ -50,6 +50,6 @@ params:
   #     yandex:
   #         SiteVerificationTag: "XYZabc"
   editPost:
-      URL: "https://github.com/<path_to_repo>/content/de"
+      URL: "https://github.com/tiflor/team-klems.de/content/de"
       Text: "Suggest Changes" # edit text
       appendFilePath: true # to append file path to Edit link
