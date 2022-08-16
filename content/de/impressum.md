@@ -4,7 +4,7 @@ layout: "impressum"
 #url: "/impressum/"
 summary: impressum 
 date: 2020-04-04T23:14:54+02:00
-draft: true
+draft: false
 translationKey: impressum
 ---
 
