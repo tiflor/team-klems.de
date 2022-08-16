@@ -1,0 +1,9 @@
+.footer_content a {
+    color: inherit;
+    border-bottom: 0px solid var(--secondary);
+}
+
+.footer_content a:hover {
+  border-bottom: 1px solid var(--primary);
+}
+

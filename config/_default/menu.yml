@@ -1,0 +1,26 @@
+main:
+  - identifier: archive
+    name: Archive
+    url: /archives/
+    weight: 50
+  - identifier: search
+    name: Search
+    url: /search/
+    weight: 20
+  - identifier: categories
+    name: Categories
+    url: /categories/
+    weight: 30
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 40
+  #- identifier: team-klems
+  #  name: team-klems.de
+  #  url: https://team-klems.de
+  #  weight: 50
+footer:
+  - identifier: impressum
+    name: Impressum
+    url: /impressum
+    weight: 90

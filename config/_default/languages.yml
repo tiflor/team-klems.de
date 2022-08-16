@@ -1,0 +1,10 @@
+de:
+  title: team-klems.de
+  contentDir: content/de
+  languageName: Deutsch
+  weight: 1
+en:
+  title: team-klems.de
+  contentDir: content/en
+  languageName: English
+  weight: 2

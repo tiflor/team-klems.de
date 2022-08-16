@@ -1,0 +1,55 @@
+baseURL: "http://team-klems.de/"
+title: "Team-Klems"
+paginate: 5
+theme: PaperMod
+
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45  
+
+params:
+  title: Team-Klems
+  description: "Team-Klems"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: "Jörg Klems"
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  label:
+      text: "Team-Klems.de"
+      # icon: /apple-touch-icon.png
+      iconHeight: 35
+  # profile-mode
+  profileMode:
+      enabled: false # needs to be explicitly set
+      title: ExampleSite
+      subtitle: "This is subtitle"
+      imageUrl: "<img location>"
+      imageWidth: 120
+      imageHeight: 120
+      imageTitle: my image
+      buttons:
+          - name: Posts
+            url: posts
+          - name: Tags
+            url: tags
+  # home-info mode
+  homeInfoParams:
+      Title: "Hi there \U0001F44B"
+      Content: Welcome to my blog
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+  #     bing:
+  #         SiteVerificationTag: "XYZabc"
+  #     yandex:
+  #         SiteVerificationTag: "XYZabc"
+  editPost:
+      URL: "https://github.com/<path_to_repo>/content/de"
+      Text: "Suggest Changes" # edit text
+      appendFilePath: true # to append file path to Edit link

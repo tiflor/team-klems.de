@@ -1,0 +1,6 @@
+params:
+  env: development # to disable google analytics, opengraph, twitter-cards and schema.
+  label:
+    text: "Development Team-Klems.de"
+    # icon: /apple-touch-icon.png
+    iconHeight: 35
