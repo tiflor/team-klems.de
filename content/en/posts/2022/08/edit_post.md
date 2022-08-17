@@ -42,4 +42,4 @@ editPost:
   appendFilePath: true # to append file path to Edit link
 ```
 
-To my understanding the URL shall lock like the example above which is basicaly the path to the github repo extended with `tree/<branch name>/<path to the content>` especially the part with the branch name is a little bit tricky because, the link will only work if the file already exists in the repo. That might not be the case during writing.
+To my understanding the URL shall lock like the example above which is basically the path to the github repo extended with `tree/<branch name>/<path to the content>` especially the part with the branch name is a little bit tricky because, the link will only work if the file already exists in the repo. That might not be the case during writing.
