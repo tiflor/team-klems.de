@@ -7,7 +7,20 @@
   "language":  "en,de-DE",
   // words - list of words to be always considered correct
   "words": [
-      "visualstudio"
+      "visualstudio",
+      "DSGVO",
+      "gehosted",
+      "hidemeta",
+      "highlightjs",
+      "HLJS",
+      "hugo",
+      "impressum",
+      "Impressumspflicht",
+      "Klems",
+      "klems",
+      "markdownify",
+      "netlify",
+      "Wiescherstr"
   ],
   // flagWords - list of words to be always considered incorrect
   // This is useful for offensive words and common spelling errors.
