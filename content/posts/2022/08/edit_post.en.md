@@ -1,6 +1,6 @@
 ---
 title: "Edit posts"
-date: "17.08.2022"
+date: 2022-08-17T11:30:00+00:00
 tags: ["hugo", "config", "theme"]
 categories: ["hugo"]
 author: "Jörg Klems"
@@ -24,10 +24,6 @@ ShowPostNavLinks: true
 #    caption: "<text>" # display caption under cover
 #    relative: false # when using page bundles set this to true
 #    hidden: true # only hide on current single page
-editPost:
-  URL: "https://github.com/tiflor/team-klems.de/tree/main/content/en/"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 

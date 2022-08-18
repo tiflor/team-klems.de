@@ -3,7 +3,14 @@ DateFormat: "January 2, 2006"
 defaultTheme: auto # dark, light
 disableThemeToggle: false
 ShowReadingTime: true
-ShowShareButtons: false # share buttons on the bottom of the page
+ShowShareButtons: true # share buttons on the bottom of the page
+ShareButtons: # share buttons which are displayed
+  - twitter
+  - linkedin
+  #- reddit
+  #- facebook
+  #- whatsapp
+  #- telegram
 ShowPostNavLinks: true
 ShowBreadCrumbs: true
 ShowCodeCopyButtons: false
@@ -29,22 +36,6 @@ cover:
       hidden: true # hide everywhere but not in structured data
       hiddenInList: true # hide on list pages and home
       hiddenInSingle: true # hide on single page
-
-# social icons
-socialIcons:
-  - name: twitter
-    url: "https://twitter.com/tiflor"
-  # - name: stackoverflow
-  #   url: "https://stackoverflow.com"
-  - name: github
-    url: "https://github.com/tiflor"
-  #- name: "xing"
-  #  url: "https://www.xing.de/username/"
-  #- name: "linkedin"
-  #  url: "https://www.linkedin.com/in/username/"
-  - name: "email" 
-    url: "mailto:webmaster@team-klems.de"  
-
 # for search
 # https://fusejs.io/api/options.html
 fuseOpts:

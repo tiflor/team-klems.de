@@ -4,7 +4,7 @@ paginate: 5
 theme: PaperMod
 
 defaultContentLanguage: de
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -24,24 +24,20 @@ params:
       text: "Team-Klems.de"
       # icon: /apple-touch-icon.png
       iconHeight: 35
-  # profile-mode
-  profileMode:
-      enabled: false # needs to be explicitly set
-      title: ExampleSite
-      subtitle: "This is subtitle"
-      imageUrl: "<img location>"
-      imageWidth: 120
-      imageHeight: 120
-      imageTitle: my image
-      buttons:
-          - name: Posts
-            url: posts
-          - name: Tags
-            url: tags
-  # home-info mode
-  homeInfoParams:
-      Title: "Hi there \U0001F44B"
-      Content: Welcome to my blog
+  # social icons
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/tiflor"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/tiflor"
+    #- name: "xing"
+    #  url: "https://www.xing.de/username/"
+    #- name: "linkedin"
+    #  url: "https://www.linkedin.com/in/username/"
+    - name: "email" 
+      url: "mailto:webmaster@team-klems.de"  
   # analytics:
   #     google:
   #         SiteVerificationTag: "XYZabc"
@@ -50,6 +46,6 @@ params:
   #     yandex:
   #         SiteVerificationTag: "XYZabc"
   editPost:
-    URL: "https://github.com/tiflor/team-klems.de/tree/main/content/de/"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/tiflor/team-klems.de/tree/main/content"
+    # Text: "Mach einen Änderungsvorschlag" # edit text
     appendFilePath: true # to append file path to Edit link

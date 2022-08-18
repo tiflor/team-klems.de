@@ -15,6 +15,10 @@ main:
     name: Tags
     url: /tags/
     weight: 40
+  - identifies: posts
+    name: Posts
+    url: /posts/
+    weight: 10
   #- identifier: team-klems
   #  name: team-klems.de
   #  url: https://team-klems.de

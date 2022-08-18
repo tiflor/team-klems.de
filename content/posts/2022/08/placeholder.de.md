@@ -1,12 +1,12 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-tags: ["first"]
-categories: ["-" ]
+title: "Platzhalter"
+date: 2022-08-18T21:12:09+02:00
+tags: [""]
+categories: ["" ]
 author: "Jörg Klems"
 showToc: false
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: "Desc Text."
@@ -24,8 +24,5 @@ ShowPostNavLinks: true
 #    caption: "<text>" # display caption under cover
 #    relative: false # when using page bundles set this to true
 #    hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/tiflor/team-klems.de/tree/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
+Dieser Post ist nur ein Platzhalter.
