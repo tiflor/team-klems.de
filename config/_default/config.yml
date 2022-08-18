@@ -50,6 +50,6 @@ params:
   #     yandex:
   #         SiteVerificationTag: "XYZabc"
   editPost:
-    URL: "https://github.com/tiflor/team-klems.de/tree/main/content/de/"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/tiflor/team-klems.de/tree/main/content/de"
+    Text: "Mach einen Änderungsvorschlag" # edit text
     appendFilePath: true # to append file path to Edit link

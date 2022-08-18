@@ -25,7 +25,7 @@ ShowPostNavLinks: true
 #    relative: false # when using page bundles set this to true
 #    hidden: true # only hide on current single page
 editPost:
-  URL: "https://github.com/tiflor/team-klems.de/tree/main/content/en/"
+  URL: "https://github.com/tiflor/team-klems.de/tree/main/content/en"
   Text: "Suggest Changes" # edit text
   appendFilePath: true # to append file path to Edit link
 ---
