@@ -30,7 +30,9 @@ jobs:
           # files: "**"
           #
           # Default: ALL files
-          files: '**/*.{md}'
+          files: |
+            **/*.{md,MD}
+            .*/**/*.yml           
 
           # Check files and directories starting with `.`.
           # - "true" - glob searches will match against `.dot` files.
