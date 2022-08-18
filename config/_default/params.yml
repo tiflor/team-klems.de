@@ -3,7 +3,14 @@ DateFormat: "January 2, 2006"
 defaultTheme: auto # dark, light
 disableThemeToggle: false
 ShowReadingTime: true
-ShowShareButtons: false # share buttons on the bottom of the page
+ShowShareButtons: true # share buttons on the bottom of the page
+ShareButtons: # share buttons which are displayed
+  - twitter
+  - linkedin
+  #- reddit
+  #- facebook
+  #- whatsapp
+  #- telegram
 ShowPostNavLinks: true
 ShowBreadCrumbs: true
 ShowCodeCopyButtons: false
@@ -44,6 +51,9 @@ socialIcons:
   #  url: "https://www.linkedin.com/in/username/"
   - name: "email" 
     url: "mailto:webmaster@team-klems.de"  
+
+
+
 
 # for search
 # https://fusejs.io/api/options.html
