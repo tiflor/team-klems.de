@@ -37,20 +37,7 @@ cover:
       hiddenInList: true # hide on list pages and home
       hiddenInSingle: true # hide on single page
 
-# social icons
-socialIcons:
-  - name: twitter
-    url: "https://twitter.com/tiflor"
-  # - name: stackoverflow
-  #   url: "https://stackoverflow.com"
-  - name: github
-    url: "https://github.com/tiflor"
-  #- name: "xing"
-  #  url: "https://www.xing.de/username/"
-  #- name: "linkedin"
-  #  url: "https://www.linkedin.com/in/username/"
-  - name: "email" 
-    url: "mailto:webmaster@team-klems.de"  
+
 
 
 
