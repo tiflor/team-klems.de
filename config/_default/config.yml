@@ -4,7 +4,7 @@ paginate: 5
 theme: PaperMod
 
 defaultContentLanguage: de
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -50,6 +50,6 @@ params:
   #     yandex:
   #         SiteVerificationTag: "XYZabc"
   editPost:
-    URL: "https://github.com/tiflor/team-klems.de/tree/main/content/de"
-    Text: "Mach einen Änderungsvorschlag" # edit text
+    URL: "https://github.com/tiflor/team-klems.de/tree/main/content"
+    # Text: "Mach einen Änderungsvorschlag" # edit text
     appendFilePath: true # to append file path to Edit link
