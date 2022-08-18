@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Install dictionaries 
+        run: npm install @cspell/dict-de-de
       - uses: streetsidesoftware/cspell-action@v2
         with:
           # Github token used to fetch the list of changed files in the commit.
@@ -32,8 +34,7 @@ jobs:
           # Default: ALL files
           files: |
             **/*.{md,MD}
-            .*/**/*.yml           
-
+        
           # Check files and directories starting with `.`.
           # - "true" - glob searches will match against `.dot` files.
           # - "false" - `.dot` files will NOT be checked.
