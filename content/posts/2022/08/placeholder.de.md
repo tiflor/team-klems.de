@@ -6,10 +6,10 @@ categories: ["" ]
 author: "Jörg Klems"
 showToc: false
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "Platzhalter"
 #canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
