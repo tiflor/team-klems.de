@@ -2,30 +2,37 @@
 {
   // Version of the setting file.  Always 0.2
   "version": "0.2",
-  "import": ["@cspell/dict-de-de/cspell-ext.json"],
+  "import": [
+    "@cspell/dict-de-de/cspell-ext.json"
+  ],
   // language - current active spelling language
-  "language":  "en,de-DE",
+  "language": "en,de-DE",
   // words - list of words to be always considered correct
   "words": [
-      "visualstudio",
-      "DSGVO",
-      "gehosted",
-      "hidemeta",
-      "highlightjs",
-      "HLJS",
-      "hugo",
-      "impressum",
-      "Impressumspflicht",
-      "Klems",
-      "klems",
-      "markdownify",
-      "netlify",
-      "Wiescherstr"
+    "Chaosradio",
+    "DSGVO",
+    "gehosted",
+    "hidemeta",
+    "highlightjs",
+    "HLJS",
+    "hugo",
+    "impressum",
+    "Impressumspflicht",
+    "klems",
+    "Klems",
+    "Kubernetes",
+    "markdownify",
+    "netlify",
+    "Newz",
+    "POPCAST",
+    "Sternengeschichten",
+    "visualstudio",
+    "Wiescherstr"
   ],
   // flagWords - list of words to be always considered incorrect
   // This is useful for offensive words and common spelling errors.
   // For example "hte" should be "the"
   "flagWords": [
-      "hte"
+    "hte"
   ]
 }
