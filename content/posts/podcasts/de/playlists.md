@@ -1,8 +1,8 @@
 ---
 title: "Podcast Listen"
 date: 2022-08-22T21:19:52+02:00
-#tags: ["Playlist"]
-#categories: ["podcasts" ]
+tags: ["Playlist"]
+categories: ["podcasts" ]
 author: "Jörg Klems"
 #showToc: false
 #TocOpen: false

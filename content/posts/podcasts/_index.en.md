@@ -2,7 +2,7 @@
 title: "Podcasts"
 date: 2022-08-18T23:19:52+02:00
 #tags: ["Playlist"]
-categories: ["podcasts" ]
+#categories: ["podcasts" ]
 author: "Jörg Klems"
 showToc: false
 TocOpen: false
