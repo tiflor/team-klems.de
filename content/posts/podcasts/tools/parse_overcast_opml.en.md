@@ -1,15 +1,15 @@
 ---
-title: "Podcasts"
+title: "Overcast export to markdown"
 date: 2022-08-18T23:19:52+02:00
-tags: ["Playlist"]
-categories: ["podcasts" ]
+tags: ["scripts", "tools"]
+categories: ["podcasts"]
 author: "Jörg Klems"
 showToc: false
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
-description: "Gesammelte Podcasts"
+description: "Overcast export to markdown transformation script."
 #canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -26,8 +26,6 @@ ShowPostNavLinks: true
 #    hidden: true # only hide on current single page
 ---
 
-[script](https://gist.github.com/tiflor/cacd73a0db0aaa49a41f0935319ae787)
+This is a small [script](https://gist.github.com/tiflor/cacd73a0db0aaa49a41f0935319ae787) transforming and overcast export into a markdown table.
 
-```js
-<script src="https://gist.github.com/tiflor/cacd73a0db0aaa49a41f0935319ae787.js"></script>
-```
+{{< gist tiflor cacd73a0db0aaa49a41f0935319ae787 >}}
