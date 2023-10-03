@@ -3,12 +3,13 @@ de:
   #contentDir: content/de
   languageName: Deutsch
   weight: 1
-  # home-info mode
-  homeInfoParams:
-    Title: "Hallo da \U0001F44B"
-    Content: Willkommen auf Team-Klems
-  # profile-mode
-  profileMode:
+  params:
+    # home-info mode
+    homeInfoParams:
+      Title: "Hallo da \U0001F44B"
+      Content: Willkommen auf Team-Klems
+    # profile-mode
+    profileMode:
       enabled: true # needs to be explicitly set
       title: Team Klems
       subtitle: "Willkommen auf Team-Klems \U0001F44B"
@@ -28,11 +29,13 @@ en:
   languageName: English
   weight: 2
   # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-  # profile-mode
-  profileMode:
+  
+  params:
+    homeInfoParams:
+      Title: "Hi there \U0001F44B"
+      Content: Welcome to my blog
+    # profile-mode
+    profileMode:
       enabled: true # needs to be explicitly set
       title: Team Klems
       subtitle: "Welcome to Team-Klems \U0001F44B"

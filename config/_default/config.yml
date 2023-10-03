@@ -26,11 +26,13 @@ params:
       iconHeight: 35
   # social icons
   socialIcons:
-    - name: twitter
+    - name: "twitter"
       url: "https://twitter.com/tiflor"
+    - name: "mastodon"
+      url: "https://hachyderm.io/@tiflor"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
-    - name: github
+    - name: "github"
       url: "https://github.com/tiflor"
     #- name: "xing"
     #  url: "https://www.xing.de/username/"
@@ -38,6 +40,9 @@ params:
     #  url: "https://www.linkedin.com/in/username/"
     - name: "email" 
       url: "mailto:webmaster@team-klems.de"  
+    # - name: "medium"
+    #   url: ""
+    
   # analytics:
   #     google:
   #         SiteVerificationTag: "XYZabc"
