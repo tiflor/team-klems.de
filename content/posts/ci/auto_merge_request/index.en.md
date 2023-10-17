@@ -67,4 +67,4 @@ That is it!
 
 The code be found on [https://gitlab.com/tiflor/auto_mr_creation_demo/](https://gitlab.com/tiflor/auto_mr_creation_demo/-/blob/main/gitlab-ci/create_mr.yml?ref_type=heads).
 
-## embeding it into `.gitlab-ci.yml` 
+## embedding it into `.gitlab-ci.yml`
