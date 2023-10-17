@@ -52,8 +52,19 @@ If done in an environment with dedicated access permissions, adapt the environme
 
 ## The CI job
 
+After we have the CI variable `MR_TOKEN` we can utilize it in a CI job.
+For the purpose of this CI-Job I use the gitlab cli [glab](https://gitlab.com/gitlab-org/cli), which make it very easy to interact with the gitlab API via command line or CI-job.
+Beside the binary itself the project also provides a container image which we use here, see line 3.
+The container start with a glab entrypoint which we need to overwrite to execute a script within the CI-job.
+Within the script block the git repository needs to be configured, this is necessary for glab to work.
+Then it is straight forward, authentication with glab to the gitlab api while using the `MR_TOKEN` variable and the glab command similar to one you can execute on your local shell, to create merge request.
+
+That is it!
 
 
-code is [here.](https://gitlab.com/tiflor/auto_mr_creation_demo/-/blob/main/gitlab-ci/create_mr.yml?ref_type=heads)
 
 {{< gitlab src="tiflor/auto_mr_creation_demo/-/raw/main/gitlab-ci/create_mr.yml" language="yml" >}}
+
+The code be found on [https://gitlab.com/tiflor/auto_mr_creation_demo/](https://gitlab.com/tiflor/auto_mr_creation_demo/-/blob/main/gitlab-ci/create_mr.yml?ref_type=heads).
+
+## embeding it into `.gitlab-ci.yml` 

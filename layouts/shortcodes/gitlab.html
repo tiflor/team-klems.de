@@ -1,5 +1,5 @@
-# shortcode to include a file from gitlab.com
-
+<!-- shortcode to include a file from gitlab.com -->
+ 
 {{ $data := "" }}
 {{ $url := .Get "src"  | printf "%s%s" "https://gitlab.com/"    }}
 {{ with resources.GetRemote $url }}
