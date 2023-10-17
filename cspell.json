@@ -9,9 +9,14 @@
   "language": "en,de-DE",
   // words - list of words to be always considered correct
   "words": [
+    "bing",
+    "catppuccin",
     "Chaosradio",
     "DSGVO",
+    "errorf",
+    "facebook",
     "gehosted",
+    "gitlab",
     "hidemeta",
     "highlightjs",
     "HLJS",
@@ -21,20 +26,30 @@
     "klems",
     "Klems",
     "Kubernetes",
+    "linkedin",
     "markdownify",
     "netlify",
     "Newz",
     "POPCAST",
+    "reddit",
+    "showtoc",
+    "stackoverflow",
     "Sternengeschichten",
     "tiflor",
     "Tiflor",
+    "tocopen",
     "visualstudio",
-    "Wiescherstr"
+    "whatsapp",
+    "Wiescherstr",
+    "xing",
+    "yandex"
   ],
+  // cSpell:disable
   // flagWords - list of words to be always considered incorrect
   // This is useful for offensive words and common spelling errors.
   // For example "hte" should be "the"
   "flagWords": [
     "hte"
   ]
+  // cSpell:enable
 }
