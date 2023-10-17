@@ -44,12 +44,14 @@ params:
     #   url: ""
     
   # analytics:
+  # cSpell:disable
   #     google:
   #         SiteVerificationTag: "XYZabc"
   #     bing:
   #         SiteVerificationTag: "XYZabc"
   #     yandex:
   #         SiteVerificationTag: "XYZabc"
+  # cSpell:enable
   editPost:
     URL: "https://github.com/tiflor/team-klems.de/tree/main/content"
     # Text: "Mach einen Änderungsvorschlag" # edit text
