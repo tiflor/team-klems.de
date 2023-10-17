@@ -13,7 +13,7 @@ ShareButtons: # share buttons which are displayed
   #- telegram
 ShowPostNavLinks: true
 ShowBreadCrumbs: true
-ShowCodeCopyButtons: false
+ShowCodeCopyButtons: true
 disableSpecial1stPost: false
 disableScrollToTop: false
 comments: false
@@ -24,7 +24,7 @@ tocopen: false
 hideFooter: true # hide default footer and use extended footer
 
 assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     #favicon: "<link / abs url>"
     #favicon16x16: "<link / abs url>"
@@ -46,13 +46,3 @@ fuseOpts:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
