@@ -1,0 +1,18 @@
+<!-- shortcode to include a file from gitlab.com -->
+ 
+{{ $data := "" }}
+{{ $url := .Get "src"  | printf "%s%s" "https://gitlab.com/"    }}
+{{ with resources.GetRemote $url }}
+  {{ with .Err }}
+    {{ errorf "%s" . }}
+  {{ else }}
+    {{ $data = .  }}
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get remote resource %q" $url }}
+{{ end }}
+
+
+{{ $language := .Get "language" }}
+
+{{- highlight $data.Content $language }}
