@@ -48,7 +48,7 @@ Alternative the ci variable can be set via the UI.
 Both option shall end with a picture similar to the this one.
 
 ![CI Variable in Gitlab CI](images/auto_merge_request-CI_variables.png)
-If done in an environment with dedicated access permissions, adapt the environment parameter of the CI variable.
+If you use the environment feature of gitlab adapt the environment parameter of the CI variable.
 
 ## The CI job
 
@@ -61,10 +61,20 @@ Then it is straight forward, authentication with glab to the gitlab api while us
 
 That is it!
 
-
-
 {{< gitlab src="tiflor/auto_mr_creation_demo/-/raw/main/gitlab-ci/create_mr.yml" language="yml" >}}
 
 The code be found on [https://gitlab.com/tiflor/auto_mr_creation_demo/](https://gitlab.com/tiflor/auto_mr_creation_demo/-/blob/main/gitlab-ci/create_mr.yml?ref_type=heads).
 
 ## embedding it into `.gitlab-ci.yml`
+
+I like to have my jobs in dedicate files. That then needs to be included into the `.gitlab-ci.yml`, which can be done in the following way.
+
+```yml
+include:
+  - local: 'gitlab-ci/create_mr.yml'
+
+stages:
+  - create_mr
+```
+
+The job also need to run in a dedicated stage which is named `create_mr`.
